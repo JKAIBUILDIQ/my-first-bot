@@ -1,0 +1,5 @@
+stories:
+  - story: introduce the bot
+    steps:
+      - intent: bot_introduction
+      - action: utter_introduction

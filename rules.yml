@@ -1,0 +1,7 @@
+version: "3.0"
+
+rules:
+  - rule: Respond to bot introduction
+    steps:
+      - intent: bot_introduction
+      - action: utter_introduction
